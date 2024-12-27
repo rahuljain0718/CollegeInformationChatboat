@@ -1,0 +1,341 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi there",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hey",
+                                "Hola",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, thanks for asking",
+                                "Good to see you again",
+                                "Hi there, how can I help?"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye",
+                                "Nice chatting to you, bye",
+                                "Till next time"
+                        ],
+                        "responses": [
+                                "See you!",
+                                "Have a nice day",
+                                "Bye! Come back again soon."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Awesome, thanks",
+                                "Thanks for helping me"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "noanswer",
+                        "patterns": [],
+                        "responses": [
+                                "Sorry, can't understand you",
+                                "Please give me more info",
+                                "Not sure I understand"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "options",
+                        "patterns": [
+                                "How  could  you help me?",
+                                "What can you do?",
+                                "What help you provide?",
+                                "How you can be helpful?",
+                                "What support is offered"
+                        ],
+                        "responses": [
+                                "I can give information about collge",
+                                "offering support to college related queries"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "about_collge",
+                        "patterns": [
+                                "I want information about college",
+                                "give me info about college",
+                                "college info"
+                        ],
+                        "responses": [
+                                "Dr. D. Y. Patil Prathishthan's, D.Y. Patil College of Engineering, was established in 1984 in Pimpri and later shifted to Akurdi complex in 2001.The college spreads over 10 acres of land with seven Engineering disciplines."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "branches",
+                        "patterns": [
+                                "what are the diiferent branches are available in college?",
+                                "give me information about branches",
+                                " what are diiferent streams are available?"
+                        ],
+                        "responses": [
+                                "\n1)Mechanical \n2)Computer Science\n3)Information Technology\n4)Electronics & Telecommunication\n5)Instrumentation\n6)Civil"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "intake",
+                        "patterns": [
+                                "What is the intake capacity of mechanical?",
+                                "What is the intake capacity of computer branch?",
+                                "What is the intake capacity of IT?",
+                                "What is the intake capacity of ENTC?"
+                        ],
+                        "responses": [
+                                "60",
+                                "120"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "contact_details",
+                        "patterns": [
+                                "Can I get contact details?",
+                                "Contact details",
+                                "Contact"
+                        ],
+                        "responses": [
+                                "Please provide pharmacy name"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fee structure",
+                        "patterns": [
+                                "What is fee structure for UG Courses?",
+                                "what is fee structure?"
+                        ],
+                        "responses": [
+                                "1)For Maharashtra board: ₹123292\n2)Other than  Maharashtra board:₹123792\n3)OBC/EBC category:₹70053\n4)SC/ST Category:₹3292\n5)VJ/NT/SBC TFWS candidate:₹16815",
+                                " you can find info about fee strucure in following link\n  https://www.dypcoeakurdi.ac.in/admissions/fee-structure "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "If I take admission then what other facilities I will get?",
+                                "What are diffrent facilities",
+                                "What facilities i will get?"
+                        ],
+                        "responses": [
+                                "24*7 WiFi facilities in the campus",
+                                "Book band facility for economically poor students",
+                                "Spacious sports ground",
+                                "Full fee reimbursement for university topper"
+                        ]
+                },
+                {
+                        "tag": "highest pkg",
+                        "patterns": [
+                                "What was the highest package of 2021 batch?",
+                                "highest package"
+                        ],
+                        "responses": [
+                                "Highest package of 2022 was of 24LPA ",
+                                "24LPA"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "admissions",
+                        "patterns": [
+                                "How can I contact admission office?",
+                                "Whar are contact details of admission office?",
+                                "contact details",
+                                "contact"
+                        ],
+                        "responses": [
+                                "For Admission enquiry give missed call on 9999695075"
+                        ]
+                },
+                {
+                        "tag": "PG Courses",
+                        "patterns": [
+                                "What are Post Graduate courses available?",
+                                "Whar are diffrent PG courses?"
+                        ],
+                        "responses": [
+                                "1.Computer Science Engineering(Intake 25)\n2.Electronics and Communication Engineering(Intake 18)\n3.Mechanical Engineering(Intake 18)"
+                        ]
+                },
+                {
+                        "tag": "Admission Process",
+                        "patterns": [
+                                "What is admission process?",
+                                "How can I get admission?"
+                        ],
+                        "responses": [
+                                "Eligibility Criteria:   1)The aspirant should be an Indian National\n2)Should have passed HSC or Diploma in Engineering and Technology\n3)Obtained score in MHT CET or JEE(Main)"
+                        ]
+                },
+                {
+                        "tag": "Hostel ",
+                        "patterns": [
+                                "Is hostel available?",
+                                "are there any hostel facilitys?"
+                        ],
+                        "responses": [
+                                "Yes"
+                        ]
+                },
+                {
+                        "tag": "Hostel Price",
+                        "patterns": [
+                                "What is cost for hostel?",
+                                "What is fee structure for Hostel?"
+                        ],
+                        "responses": [
+                                "Total Hostel fees for Boys:₹30000 \nTotal Hostel fees for Girls:₹35000"
+                        ]
+                },
+                {
+                        "tag": "Cultural",
+                        "patterns": [
+                                "Which programs are there in cultural activities?",
+                                "Cultural Activities",
+                                "What are the dates of upcoming cultural activities?"
+                        ],
+                        "responses": [
+                                "Gadget Gyan\nTantratsov\nTraditional Day\nTheme Day\nMr/Ms DYPCOE\nDJ night",
+                                "dates are: Mr/Ms DYPCOE - 7/4/2022\nTraditional Day - 7/4/2022\nTheme Day - 8/4/2022 \nDJ night - 8/4/2022"
+                        ]
+                },
+                {
+                        "tag": "sports",
+                        "patterns": [
+                                "What are the names of various sports championships organized during sports day",
+                                "sports events"
+                        ],
+                        "responses": [
+                                "Cricket\nFootball\nBasketballn\n Volleyball\n Kabbadi\n Badminton\nTable Tennis\n Chess"
+                        ]
+                },
+                {
+                        "tag": "scholarships",
+                        "patterns": [
+                                "What is criteria for applying for ebc scholarship?",
+                                "What is criteria for applying for obc scholarship?"
+                        ],
+                        "responses": [
+                                ":income less than ₹8L & caste caertificate.\n(for other tha open students caste certificate is mandatory)"
+                        ]
+                },
+                {
+                        "tag": "info for scholarsips",
+                        "patterns": [
+                                "give me information about all scholarships",
+                                "what is last date to apply for ebc \\ obc scholarship?"
+                        ],
+                        "responses": [
+                                "https://mahadbtmahait.gov.in"
+                        ]
+                },
+                {
+                        "tag": "results",
+                        "patterns": [
+                                "when are results getting out?",
+                                "how to check result?",
+                                "result",
+                                "give me my results"
+                        ],
+                        "responses": [
+                                "results will only be available on sppu official website below:\nhttp://www.unipune.ac.in/university_files/results.html"
+                        ]
+                },
+                {
+                        "tag": "income cert",
+                        "patterns": [
+                                "what is income certificate",
+                                "what if i dont have income certificate ready?"
+                        ],
+                        "responses": [
+                                "please contact your administrator..:)"
+                        ]
+                },
+                {
+                        "tag": "tpo details",
+                        "patterns": [
+                                "who is tpo?",
+                                "Can I get tpo details"
+                        ],
+                        "responses": [
+                                "Mr.Heeresh Khatri\nContact No:9923963332"
+                        ]
+                },
+                {
+                        "tag": "Companies",
+                        "patterns": [
+                                "which are diiferent companies visit college for placement?",
+                                "major recruiters",
+                                "recruiters"
+                        ],
+                        "responses": [
+                                "TCS\nWipro\nInfosys\nCognizant\nCapgemini\nXoriat\nVirtusa\n100+.."
+                        ]
+                }
+                ,
+                {
+                        "tag":"Placement Details",
+                        "patterns":[
+                                "give me placement details",
+                                "how are college placements?",
+                                "placemnt information"
+                        ]
+                        ,
+                        "responses":[
+                                "Mr.Heeresh Khatri\nContact No:9923963332",
+                                "The placement percentage for Computer branch is 96%\nThe placement percentage for Information Technology branch is 98%\nThe placement percentage for Mechanical branch is 90%\nThe placement percentage for Civil branch is 88%"
+                                
+                        ]                         
+                }
+        ]
+}
